@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  background-image: url(https://drive.google.com/thumbnail?id=1vSsDghFeAkBaUii_RaKfHAv4eV-u-QtJ);
+  background-size: cover;
+  height: 800;
+}
+
+#top-main {
+  display: flex;
+}
+
+.2col {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: turquoise;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 15px 20px 15px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
+}
+
+.container1 {
+  height: 10em;
+  position: relative;
+}
+.container1 p {
+  margin: 4em;
+}
+
+.c-site-header {
+  font-size: 14px;
+  color: green;
+}
+.c-site-footer {
+  color: blue;
+}
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
